@@ -1,3 +1,4 @@
+# Run Remotely: iwr -useb https://raw.githubusercontent.com/twojapiez/twojapiez/refs/heads/main/a.ps1 | iex
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 Add-Type -AssemblyName System.Speech
