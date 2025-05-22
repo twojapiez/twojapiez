@@ -23,7 +23,7 @@ function Get-RandomString {
 function Play-RandomSystemSound {
     $soundName = $soundNames[$random.Next(0, $soundNames.Count)]
     [System.Media.SystemSounds]::$soundName.Play()
-	Start-Sleep -Milliseconds 1000
+	Start-Sleep -Milliseconds 10000
              Play-RandomSystemSound
 }
 function Say-RandomPhrase {
