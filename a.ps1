@@ -25,6 +25,7 @@ function Play-RandomSystemSound {
     [System.Media.SystemSounds]::$soundName.Play()
 	Start-Sleep -Milliseconds 1000
              Play-RandomSystemSound
+	                 Say-RandomPhrase
 }
 function Say-RandomPhrase {
     $randomString = Get-RandomString
@@ -83,7 +84,6 @@ $timer.Add_Tick({
         if ($newColor.ToArgb() -ne $w.PrevColor.ToArgb()) {
             $form.BackColor = $newColor
             $w.PrevColor = $newColor
-            Say-RandomPhrase
 	    Start-Sleep -Milliseconds 50
         }
     }
