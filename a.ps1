@@ -23,7 +23,8 @@ function Get-RandomString {
 function Play-RandomSystemSound {
     $soundName = $soundNames[$random.Next(0, $soundNames.Count)]
     [System.Media.SystemSounds]::$soundName.Play()
-	Start-Sleep -Milliseconds 50
+	Start-Sleep -Milliseconds 100
+             Play-RandomSystemSound
 }
 function Say-RandomPhrase {
     $randomString = Get-RandomString
@@ -82,11 +83,11 @@ $timer.Add_Tick({
         if ($newColor.ToArgb() -ne $w.PrevColor.ToArgb()) {
             $form.BackColor = $newColor
             $w.PrevColor = $newColor
-            Play-RandomSystemSound
             Say-RandomPhrase
 	    Start-Sleep -Milliseconds 50
         }
     }
 })
+Play-RandomSystemSound
 $timer.Start()
 [System.Windows.Forms.Application]::Run()
