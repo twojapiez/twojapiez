@@ -5,9 +5,9 @@ Add-Type -AssemblyName System.Speech
 Add-Type -AssemblyName System.Media
 $screenWidth = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width
 $screenHeight = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height
-$windowCount = 999
+$windowCount = 250
 $minSize = 200
-$maxSize = 1000
+$maxSize = 500
 $random = New-Object System.Random
 $synthesizer = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $soundNames = @("Asterisk", "Beep", "Exclamation", "Hand", "Question")
@@ -23,7 +23,7 @@ function Get-RandomString {
 function Play-RandomSystemSound {
     $soundName = $soundNames[$random.Next(0, $soundNames.Count)]
     [System.Media.SystemSounds]::$soundName.Play()
-	Start-Sleep -Milliseconds 100
+	Start-Sleep -Milliseconds 1000
              Play-RandomSystemSound
 }
 function Say-RandomPhrase {
