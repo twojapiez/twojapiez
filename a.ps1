@@ -5,7 +5,7 @@ Add-Type -AssemblyName System.Speech
 Add-Type -AssemblyName System.Media
 $screenWidth = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width
 $screenHeight = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height
-$windowCount = 250
+$windowCount = 505
 $minSize = 200
 $maxSize = 500
 $random = New-Object System.Random
@@ -88,6 +88,6 @@ $timer.Add_Tick({
         }
     }
 })
-Play-RandomSystemSound
 $timer.Start()
+Play-RandomSystemSound
 [System.Windows.Forms.Application]::Run()
