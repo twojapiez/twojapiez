@@ -64,7 +64,7 @@ for ($i = 0; $i -lt $windowCount; $i++) {
     }
 }
 $timer = New-Object System.Windows.Forms.Timer
-$timer.Interval = 1
+$timer.Interval = 20
 $timer.Add_Tick({
     foreach ($w in $windows) {
         $form = $w.Form
