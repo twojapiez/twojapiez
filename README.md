@@ -5,6 +5,6 @@
 
 - 🌱 I’m currently learning **Java, C++**
 
-- 🤝 I’m looking for help with [Cathook TF2 32 Bit fix](https://github.com/twojapiez/cathookreal) <sub> Still possible idc </sub>
+- 🤝 I’m looking for help with [Cathook TF2 32 Bit fix ORIGINAL NOT SOME BULLSHIT :STEAMHAPPY:](https://github.com/twojapiez/cathookreal) <sub> Still possible idc </sub>
 
 - 💬 Ask me about **Video Game "Utility Mods"**
