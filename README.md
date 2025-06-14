@@ -6,6 +6,6 @@
 
 - 🌱 I’m currently learning **Java, C++**
 
-- 🤝 I’m looking for help with [Cathook TF2 32 Bit fix ORIGINAL NOT SOME BULLSHIT :STEAMHAPPY:](https://github.com/twojapiez/cathookreal) <sub> Still possible idc </sub>
+- 📧 How to reach me: [Matrix](https://matrix.to/#/@lusee:matrix.org) and discord `youseelusee`
 
 - 💬 Ask me about **Video Game "Utility Mods"**
