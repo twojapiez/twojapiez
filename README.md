@@ -6,6 +6,6 @@
 
 - 🌱 I’m currently learning **Java, C++**
 
-- 📧 How to reach me: [Matrix](https://matrix.to/#/@lusee:matrix.org) and discord `youseelusee`
+- 📧 How to reach me: [Matrix](https://matrix.to/#/@lusee:matrix.org) 
 
 - 💬 Ask me about **Video Game "Utility Mods"**
